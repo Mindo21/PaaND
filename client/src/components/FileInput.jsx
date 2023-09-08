@@ -13,7 +13,6 @@ function FileInput() {
 
   return (
     <div>
-      <h2>Priloha</h2>
       <input
         type="file"
         accept=".pdf, .doc, .docx, .jpg, .png" // Specify the allowed file types
