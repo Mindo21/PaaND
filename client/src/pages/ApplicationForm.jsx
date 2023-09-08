@@ -35,7 +35,7 @@ function ApplicationForm() {
             <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
               {/* Page header */}
               <div className="mb-8">
-                <h1 className="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Ziadost o vstup motoroveho vozidla do stareho mesta co ja vim</h1>
+                <h1 className="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold">Žiadosť o povolenie vjazdu do historickej časti mesta alebo pešej zóny</h1>
               </div>
 
               <div className="border-t border-slate-200 dark:border-slate-700">
@@ -43,7 +43,7 @@ function ApplicationForm() {
                 <div className="space-y-8 mt-8">
                   {/* Input Types */}
                   <div>
-                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Udaje o osobe</h2>
+                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Identifikačné údaje žiadateľa</h2>
                     <div className="grid gap-5 md:grid-cols-3">
                       <div>
                         {/* Start */}
@@ -71,7 +71,7 @@ function ApplicationForm() {
                         {/* Start */}
                         <div>
                           <label className="block text-sm font-medium mb-1" htmlFor="default">
-                            Evidecne cislo vozidla
+                            Evidenčné číslo vozidla
                           </label>
                           <input id="default" className="form-input w-full" type="text" />
                         </div>
@@ -82,7 +82,7 @@ function ApplicationForm() {
                         {/* Start */}
                         <div>
                           <label className="block text-sm font-medium mb-1" htmlFor="default">
-                            E-mail
+                            Rodné číslo
                           </label>
                           <input id="default" className="form-input w-full" type="text" />
                         </div>
@@ -93,7 +93,7 @@ function ApplicationForm() {
                         {/* Start */}
                         <div>
                           <label className="block text-sm font-medium mb-1" htmlFor="default">
-                            Tel. Cislo
+                            Dátum narodenia
                           </label>
                           <input id="default" className="form-input w-full" type="text" />
                         </div>
@@ -116,7 +116,7 @@ function ApplicationForm() {
 
                   {/* Input Sizes */}
                   <div>
-                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Casove obdobie</h2>
+                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Časové obdobie</h2>
                     <div className="grid gap-5 md:grid-cols-2">
                       <div>
                         {/* Start */}
@@ -144,14 +144,11 @@ function ApplicationForm() {
 
                   {/* Input States */}
                   <div>
-                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Prilohy</h2>
+                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Prílohy</h2>
                     <div className="grid gap-5 md:grid-cols-3">
                       <div>
                         {/* Start */}
                         <div>
-                          <label className="block text-sm font-medium mb-1" htmlFor="default">
-                            Prilohy (subory)
-                          </label>
                           <FileInput />
                         </div>
                         {/* End */}
@@ -161,13 +158,13 @@ function ApplicationForm() {
 
                   {/* Reason */}
                   <div>
-                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Prilohy</h2>
+                    <h2 className="text-2xl text-slate-800 dark:text-slate-100 font-bold mb-6">Odôvodnenie</h2>
                     <div className="grid gap-5 md:grid-cols-3">
                       <div>
                         {/* Start */}
                         <div>
                           <label className="block text-sm font-medium mb-1" htmlFor="default">
-                            Odovodnenie
+                            Dôvod žiadosti o vstup
                           </label>
                           <input id="default" className="form-input w-full" type="text" />
                         </div>
